@@ -1,0 +1,28 @@
+body {
+    background-color: #222;
+}
+
+#carousel {
+    width: 80vw;
+    height: 70vh;
+    background-color: #333;
+    margin: 15vh auto;
+    position: relative;
+    perspective: 1000px;
+}
+
+#carousel .slice {
+    width: 17.0666px;
+    height: 425px;
+    background-color: rgba(165, 42, 42, 0.486);
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+   background-image: url(panorama.jpg);
+   background-repeat: repeat-x;
+}
